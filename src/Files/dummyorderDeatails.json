@@ -1,0 +1,410 @@
+[
+    {
+        "id": "ochOrder::fc3545be-8042-4f38-ad06-21a5eb9c3c41::v1",
+        "type": "order",
+        "typeVersion": "v1",
+        "orderUniqueId": "ochOrder::fc3545be-8042-4f38-ad06-21a5eb9c3c41::v1",
+        "receivedDateTime": "2023-09-05T13:50:03.094Z",
+        "updatedDateTime": "2023-09-05T13:50:03.344Z",
+        "createdDateTime": "2023-09-05T13:49:02Z",
+        "sourceOrderId": "1693921733598",
+        "reasonDescription": "Order received succesfully",
+        "statusCode": "INPROCESS",
+        "orderProcessingStatus": "ORDER_RECEIVED",
+        "orderProcessingStatusReason": "Order validation successful",
+        "orderPaymentStatus": "PENDING",
+        "countryIsoCode": "US",
+        "companyCode": "1",
+        "sourceSystemId": "626",
+        "orderChannelMethodCode": "web",
+        "soldToCustomerId": "42358780",
+        "orderTypeCode": "06",
+        "orderSubTypeCode": "SellerManaged",
+        "privateRemarksText": "",
+        "requestedDeliveryDateTime": "2023-09-06T13:50:03.427Z",
+        "totalRequestedQty": 16,
+        "totalGrossAmount": 36.68,
+        "totalDiscountAmount": 0.0,
+        "totalTaxAmount": 3.5,
+        "netTotalAmount": 40.18,
+        "consumerPaidShippingAmount": 0.0,
+        "currencyCode": "USD",
+        "orderTagsText": "Regular",
+        "marketPlaceAccountId": "9999",
+        "sourceProfileId": "9999",
+        "marketPlaceOrderId": "1693921733598",
+        "marketPlaceAlternateOrderId": "995",
+        "routeId": "R00551",
+        "orderLocationId": "12212",
+        "referenceOrderId": "0000922768",
+        "customerRemarksText": "",
+        "languageIsoCode": "EN",
+        "sourceSystemName": "D2C",
+        "createdById": "0oappd8cznzjYOBaX0h7",
+        "orderType": "ZWO",
+        "orderSubStatus": "VALIDATED",
+        "extendedAttributesMap": {
+            "addressVerificationRequired": false,
+            "salesforceOrderId": "801Dh000002dm0SIAQ",
+            "deliveryId": null,
+            "additionalEmails": "",
+            "ipAddress": "MTQ4LjY0LjUuMjI=",
+            "fraudCheck": false,
+            "preOrder": false,
+            "mdgLocationId": "2116",
+            "sessionId": "1693921633032",
+            "mdgCustomerId": "2003772961",
+            "mdgRouteId": "USF05F"
+        },
+        "isMixedCpgOrder": false,
+        "extendedAttributesList": [],
+        "consumerProfile": {
+            "consumerProfileId": "8a5b9d8888434bdd018843a3921c0001",
+            "consumerEmailText": "nidanelson246+2@gmail.com",
+            "firstName": "Peter",
+            "lastName": "Sutherland",
+            "phoneNumber": "9161071420",
+            "consumerRegisteredFlag": "true"
+        },
+        "addresses": [
+            {
+                "addressType": "Shipping",
+                "firstName": "Peter",
+                "lastName": "Sutherland",
+                "addressLine1": "1610 East Florence Avenue",
+                "addressLine2": "",
+                "cityName": "Los Angeles",
+                "stateOrProvinceName": "CA",
+                "postalArea": "90001",
+                "countryIsoName": "US",
+                "deliveryInstructions": ""
+            },
+            {
+                "addressType": "Billing",
+                "firstName": "Peter",
+                "lastName": "Sutherland",
+                "addressLine1": "1610 East Florence Avenue",
+                "addressLine2": "",
+                "cityName": "Los Angeles",
+                "stateOrProvinceName": "CA",
+                "postalArea": "90001",
+                "countryIsoName": "US",
+                "daytimeTelephoneNumber": ""
+            }
+        ],
+        "consumerPayments": [
+            {
+                "paymentTransactionId": "6939217339146046903954",
+                "paymentTransactionAccountId": "",
+                "transactionDateTime": "2023-09-05T13:49:02Z",
+                "paymentMethodCode": "card",
+                "paymentTransactionAmount": 40.18,
+                "paymentTransactionValue": "ACCEPTED",
+                "transactionMerchantReferenceNumber": "753551224M4MPTMI",
+                "paymentTransactionSystem": "CyberSource"
+            }
+        ],
+        "items": [
+            {
+                "sourceOrderLineId": "348511",
+                "materialId": "00028400642040",
+                "requestedQty": 4,
+                "requestedQtyUom": "EA",
+                "unitPriceAmount": 2.29,
+                "totalGrossAmount": 9.16,
+                "totalTaxAmount": 0.88,
+                "isBundleFlag": false,
+                "sourceProductId": "08652301",
+                "lineMaterialTypeCode": "01",
+                "requestedMaterialId": "08652301",
+                "requestedMaterialName": "Doritos Tortilla Chips Spicy Nacho 9 3/4 Oz",
+                "totalNetAmount": 10.04,
+                "pepMaterialId": "00028400642040",
+                "productClass": "CLASS",
+                "taxDetails": [
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.0025,
+                        "taxAmount": 0.02,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.06,
+                        "taxAmount": 0.55,
+                        "taxTypeCode": "STATE"
+                    },
+                    {
+                        "taxPercent": 0.0125,
+                        "taxAmount": 0.11,
+                        "taxTypeCode": "COUNTY"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    }
+                ],
+                "discountDetails": [],
+                "fulfillments": [],
+                "bundleComponents": [],
+                "adjustments": [],
+                "extendedItemAttributesMap": {
+                    "mdgRequestedQtyUom": "EA",
+                    "sourceProfileId": "9999",
+                    "routeId": "R00551",
+                    "marketPlaceAlternateOrderId": "995",
+                    "orderLocationId": "12212",
+                    "soldToCustomerId": "42358780",
+                    "preOrder": false,
+                    "mdgLocationId": "2116",
+                    "mdgProductId": "000000000300022362",
+                    "mdgRouteId": "USF05F",
+                    "marketPlaceAccountId": "9999"
+                },
+                "extendedItemAttributesList": []
+            },
+            {
+                "sourceOrderLineId": "348512",
+                "materialId": "00028400459587",
+                "requestedQty": 4,
+                "requestedQtyUom": "PAK",
+                "unitPriceAmount": 0.99,
+                "totalGrossAmount": 3.96,
+                "totalTaxAmount": 0.38,
+                "isBundleFlag": false,
+                "sourceProductId": "08353700",
+                "lineMaterialTypeCode": "01",
+                "requestedMaterialId": "08353700",
+                "requestedMaterialName": "Nut Harvest Pistachios In Shell Salted 1 3/4 Oz",
+                "totalNetAmount": 4.34,
+                "pepMaterialId": "00028400459587",
+                "productClass": "CLASS",
+                "taxDetails": [
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.02,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.02,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.0025,
+                        "taxAmount": 0.01,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.0125,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "COUNTY"
+                    },
+                    {
+                        "taxPercent": 0.06,
+                        "taxAmount": 0.24,
+                        "taxTypeCode": "STATE"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.02,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.02,
+                        "taxTypeCode": "DISTRICT"
+                    }
+                ],
+                "discountDetails": [],
+                "fulfillments": [],
+                "bundleComponents": [],
+                "adjustments": [],
+                "extendedItemAttributesMap": {
+                    "mdgRequestedQtyUom": "EA",
+                    "sourceProfileId": "9999",
+                    "routeId": "R00551",
+                    "marketPlaceAlternateOrderId": "995",
+                    "orderLocationId": "12212",
+                    "soldToCustomerId": "42358780",
+                    "preOrder": false,
+                    "mdgLocationId": "2116",
+                    "mdgProductId": "000000000300021591",
+                    "mdgRouteId": "USF05F",
+                    "marketPlaceAccountId": "9999"
+                },
+                "extendedItemAttributesList": []
+            },
+            {
+                "sourceOrderLineId": "348513",
+                "materialId": "00028400437929",
+                "requestedQty": 4,
+                "requestedQtyUom": "EA",
+                "unitPriceAmount": 3.49,
+                "totalGrossAmount": 13.96,
+                "totalTaxAmount": 1.32,
+                "isBundleFlag": false,
+                "sourceProductId": "08073501",
+                "lineMaterialTypeCode": "01",
+                "requestedMaterialId": "08073501",
+                "requestedMaterialName": "Sabritas Fiesta Mix Flavored Snack Mix 2.75 Oz",
+                "totalNetAmount": 15.28,
+                "pepMaterialId": "00028400437929",
+                "productClass": "CLASS",
+                "taxDetails": [
+                    {
+                        "taxPercent": 0.06,
+                        "taxAmount": 0.84,
+                        "taxTypeCode": "STATE"
+                    },
+                    {
+                        "taxPercent": 0.0125,
+                        "taxAmount": 0.17,
+                        "taxTypeCode": "COUNTY"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.07,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.07,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.07,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.07,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.0025,
+                        "taxAmount": 0.03,
+                        "taxTypeCode": "DISTRICT"
+                    }
+                ],
+                "discountDetails": [],
+                "fulfillments": [],
+                "bundleComponents": [],
+                "adjustments": [],
+                "extendedItemAttributesMap": {
+                    "mdgRequestedQtyUom": "EA",
+                    "sourceProfileId": "9999",
+                    "routeId": "R00551",
+                    "marketPlaceAlternateOrderId": "995",
+                    "orderLocationId": "12212",
+                    "soldToCustomerId": "42358780",
+                    "preOrder": false,
+                    "mdgLocationId": "2116",
+                    "mdgProductId": "000000000300021052",
+                    "mdgRouteId": "USF05F",
+                    "marketPlaceAccountId": "9999"
+                },
+                "extendedItemAttributesList": []
+            },
+            {
+                "sourceOrderLineId": "348514",
+                "materialId": "00028400695312",
+                "requestedQty": 4,
+                "unitPriceAmount": 2.4,
+                "totalGrossAmount": 9.6,
+                "totalTaxAmount": 0.92,
+                "isBundleFlag": false,
+                "sourceProductId": "1500000641",
+                "lineMaterialTypeCode": "01",
+                "requestedMaterialId": "1500000641",
+                "requestedMaterialName": "BANDANA",
+                "totalNetAmount": 10.52,
+                "pepMaterialId": "00028400695312",
+                "productClass": "",
+                "taxDetails": [
+                    {
+                        "taxPercent": 0.06,
+                        "taxAmount": 0.58,
+                        "taxTypeCode": "STATE"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.0125,
+                        "taxAmount": 0.12,
+                        "taxTypeCode": "COUNTY"
+                    },
+                    {
+                        "taxPercent": 0.005,
+                        "taxAmount": 0.05,
+                        "taxTypeCode": "DISTRICT"
+                    },
+                    {
+                        "taxPercent": 0.0025,
+                        "taxAmount": 0.02,
+                        "taxTypeCode": "DISTRICT"
+                    }
+                ],
+                "discountDetails": [],
+                "fulfillments": [],
+                "bundleComponents": [],
+                "adjustments": [],
+                "extendedItemAttributesMap": {
+                    "mdgRequestedQtyUom": "",
+                    "sourceProfileId": "9999",
+                    "routeId": "R00551",
+                    "marketPlaceAlternateOrderId": "995",
+                    "orderLocationId": "12212",
+                    "soldToCustomerId": "42358780",
+                    "preOrder": false,
+                    "mdgLocationId": "2116",
+                    "mdgProductId": "1500000641",
+                    "mdgRouteId": "USF05F",
+                    "marketPlaceAccountId": "9999"
+                },
+                "extendedItemAttributesList": []
+            }
+        ],
+        "validations": [
+            {
+                "validationStatus": "Valid",
+                "processedDate": "2023-09-05T13:50:11.932Z",
+                "rules": []
+            }
+        ],
+        "discounts": [
+            {
+                "discountAmount": 0.0
+            }
+        ],
+        "adjustments": []
+    }
+]

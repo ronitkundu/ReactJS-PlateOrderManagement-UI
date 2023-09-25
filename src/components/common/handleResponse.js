@@ -10,3 +10,16 @@ export async function getLoginData(url , data,password) {
     });
     return response; // parses JSON response into native JavaScript objects
   }
+
+  export async function getOrderDetails(url ,token) {
+    const response = await fetch(url, {
+      method: 'GET',
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json',
+        'Token': token,
+        
+      }
+    });
+    return response; // parses JSON response into native JavaScript objects
+  }

@@ -1,0 +1,13 @@
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div-component {  
+    padding: 5px;
+  } 
+   
+  .label-component { 
+    padding: 8px;
+    font-weight: bold;
+  }

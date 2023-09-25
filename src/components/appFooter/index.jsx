@@ -11,12 +11,12 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "white",
 				textAlign: "center",
 				fontSize:'10px'
 				//marginTop: "-50px" 
 			}}>
-		Hungry Plate is a wholeSale Plate Company
+		Hungry Plate
 	</h1>
 	<Container>
 		<Row>
@@ -32,7 +32,7 @@ return (
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
+			<FooterLink href="#">US</FooterLink>
 			
 		</Column>
 		<Column>

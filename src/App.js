@@ -2,6 +2,7 @@ import './App.css';
 import HomePage from './components/pages/HomePage'
 import About from './components/pages/about';
 import LoginPage from './components/pages/applogin';
+import OrderDetails from './components/pages/OrderDetails'
 import Navbar from './components/Navbar'
 import Footer from './components/appFooter'
 //import AuthContext from './components/context/auth-context';
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' exact element={<HomePage/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/applogin' element={<LoginPage/>} />
+        <Route path='/orderDetails' element={<OrderDetails/>} />
         </Routes>
       </Router>
       <Footer />

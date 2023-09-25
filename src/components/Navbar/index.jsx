@@ -41,8 +41,8 @@ return (
 		<NavLink to='/annual' >
 			Annual Report
 		</NavLink>
-		<NavLink to='/team' >
-			Teams
+		<NavLink to='/orderDetails' >
+			Order Details
 		</NavLink>
 		<NavLink to='/blogs' >
 			Blogs

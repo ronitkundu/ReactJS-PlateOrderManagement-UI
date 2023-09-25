@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
 //padding: 80px 60px;
-background: #004e36;
-position: absolute;
+background: #004c97;
+position: fixed;
 bottom: 0;
 width: 100%;
 
@@ -12,6 +12,8 @@ width: 100%;
 	//padding: 70px 30px;
 }
 `;
+
+
 
 export const Container = styled.div`
 	display: content;

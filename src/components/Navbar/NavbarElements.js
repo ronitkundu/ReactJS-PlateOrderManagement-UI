@@ -4,7 +4,7 @@ import styled from 'styled-components';
 //import logo from '../images/bk3.jpg'
 
 export const Nav = styled.nav`
-background: #004e36;
+background: #004c97;
 height: 85px;
 display: flex;
 justify-content: space-between;
